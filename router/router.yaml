@@ -16,7 +16,7 @@ cors:
     - https://studio.apollographql.com
   allow_credentials: true
 
-# This would make debugging easier, but should be a per subgraph basis for production
+# This would make debugging easier, but should be a per subgraph basis for production workshop
 include_subgraph_errors:
   all: true # Propagate errors from all subgraphs
 
